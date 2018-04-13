@@ -77,8 +77,8 @@ tree* tree::insert(string data){
 }
 int main(){
   string data = "a b * c +";
-  tree expp;
+  tree expression;
   tree* root = NULL;
-  root = expp.insert(data);
-  expp.display(root);
+  root = expression.insert(data);
+  expression.display(root);
 }
