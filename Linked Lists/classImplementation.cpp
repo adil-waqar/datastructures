@@ -89,14 +89,5 @@ void List::deleteNode(int val)
 
 int main()
 {
-  List usr;
-  List dragon;
-  usr.insert(1);
-  usr.insert(2);
-  usr.insert(3);
-  usr.insert(4);
-  usr.deleteNode(2);
-  usr.display();
-
-  return 0;
+ 
 }
