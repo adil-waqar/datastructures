@@ -13,14 +13,14 @@ node* head1 = NULL;
 node* head2 = NULL;
 node* head3 = NULL;
 int main(){
-								insertHead1(76);
-								insertHead1(-13);
-								insertHead1(42);
-								insertHead2(-10);
-								insertHead2(55);
-								insertHead2(26);
-								insertSum();
-								print();
+		insertHead1(76);
+		insertHead1(-13);
+		insertHead1(42);
+		insertHead2(-10);
+		insertHead2(55);
+		insertHead2(26);
+		insertSum();
+		print();
 }
 
 void insertHead1(int num)
